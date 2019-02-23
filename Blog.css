@@ -1,0 +1,14 @@
+#head {text-align: center;
+background-color: purple;
+color: palevioletred;
+border-style: solid;
+border-color: purple;
+}
+body {background-color: lavenderblush}
+
+.title {width: 600px;
+
+}
+
+.content {width: 600px;
+}
