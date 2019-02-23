@@ -6,5 +6,6 @@ let a = $('input.gomb').on('click', (event) => {
   $('div.posztok').append(`<p>${post}</p>`);
   let posting = $('textarea').val();
   $('div.posztok').append(`<p>${posting}<p/>`);
-  
+let dataToSave = {post: post , posting: posting};
+database.ref("post").push(dataToSave);  
 })
